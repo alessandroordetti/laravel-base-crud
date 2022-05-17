@@ -11243,3 +11243,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.card-text {
+  max-height: 10rem;
+  overflow-y: auto;
+}
+
+.card-img-top {
+  height: 50px;
+}

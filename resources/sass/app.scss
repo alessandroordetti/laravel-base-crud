@@ -1,1 +1,10 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
+.card-text {
+    max-height: 10rem;
+    overflow-y: auto;
+}
+
+.card-img-top{
+    height: 50px;
+}
