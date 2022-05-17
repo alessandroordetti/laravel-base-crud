@@ -16,7 +16,7 @@ class ComicController extends Controller
     public function index()
     {
         $newComics = Comic::all();
-        return view ('layouts.main', ['comics' => $newComics]);
+        return view ('comics.index', ['comics' => $newComics]);
     }
 
     /**
