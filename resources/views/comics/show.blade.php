@@ -1,7 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="col-4">
+<div class="container">
+    <div class="row">
+        <div class="col-4">
         <div class="card">
             <img class="card-img-top" src="{{$comic->thumb}}" alt="{{$comic->title}}">
             <div class="card-body">
@@ -12,5 +14,8 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+    
 @endsection
 

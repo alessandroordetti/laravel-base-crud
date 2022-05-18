@@ -12,6 +12,8 @@
 
     <main>
         @yield('content')
+
+        @yield('form-section')
     </main>
 
 </body>
